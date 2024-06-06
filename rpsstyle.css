@@ -1,0 +1,161 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f1e9fe;
+}
+
+.image-container {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.image-container img {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 80%;
+    height: calc(100vh - 60px);
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    text-align: center;
+    font-size: 4em;
+    color: #f78da7;
+    margin-bottom: 20px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    width: 60%;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #e2f3ea;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    font-size: 3em;
+    color: black;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+h3 {
+    font-size: 2em;
+    color: black;
+}
+
+.scoreboard {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.user-score,
+.computer-score {
+    font-size: 2.5em;
+    color: #9b59b6;
+}
+
+span {
+    font-size: 1.5em;
+    color: #9e88c2;
+}
+
+.choices {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.choice {
+    padding: 15px 30px;
+    border: none;
+    border-radius: 35px;
+    cursor: pointer;
+    font-size: 2.5em;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+}
+
+.choice:hover {
+    background-color: #d7e2f0;
+}
+
+#rock {
+    background-color: #f7cac9;
+}
+
+#rock:hover {
+    background-color: #e0a2a2;
+}
+
+#paper {
+    background-color: #a2c4f4;
+}
+
+#paper:hover {
+    background-color: #79a2d6;
+}
+
+#scissors {
+    background-color: #c2f099;
+}
+
+#scissors:hover {
+    background-color: #97d962;
+}
+
+.player,
+.computer {
+    width: 65%;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: #d2eaf7;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.player h3,
+.computer h3 {
+    margin-bottom: 10px;
+}
+
+.weapon,
+.score {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+}
+
+.weapon {
+    font-weight: bold;
+}
+
+.player-image,
+.computer-image {
+    display: block;
+    margin: 0 auto;
+}
+
+.result {
+    text-align: center;
+    font-size: 2em;
+    color: #34495e;
+    margin-top: 20px;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="rpsstyle.css">
+</head>
+</head>
+
+<body>
+    <div class="image-container">
+        <img src="images/rock.png" width="150" , height="150">
+        <img src="images/paper.png" width="150" , height="150">
+        <img src="images/scissors.png" width="150" , height="150">
+    </div>
+    <h1>ROCK - PAPER - SCISSOR</h1>
+    <div class="container">
+        <h2 class="message">CHOOSE YOUR WEAPON!</h2>
+        <div class="choices">
+            <button class="choice" id="rock">Rock ✊</button>
+            <button class="choice" id="paper">Paper ✋</button>
+            <button class="choice" id="scissors">Scissors ✌</button>
+        </div>
+        <br>
+        <div class="scores">
+            <div class="player">
+                <img src="images/player.jpeg" width="75" , height="75">
+                <h3>Player</h3>
+                <div class="weapon">Choice: -</div>
+                <div class="score">Score: 0</div>
+            </div>
+            <br>
+            <div class="computer">
+                <img src="images/computer.jpeg" width="75" , height="75">
+                <h3>Computer</h3>
+                <div class="weapon">Choice: -</div>
+                <div class="score">Score: 0</div>
+            </div>
+            <br>
+        </div>
+        <audio id="rockSound" src="audios/rock-cinematic-161648.mp3"></audio>
+        <audio id="paperSound" src="audios/crumping-paper-109585.mp3"></audio>
+        <audio id="scissorsSound" src="audios/scissors-43842.mp3"></audio>
+        <div class="result">
+            <p>Result: The Winner is -</p>
+        </div>
+    </div>
+    <canvas id="confetti-canvas"></canvas>
+    <script src="rpsscript.js"></script>
+</body>
+
+</html>
